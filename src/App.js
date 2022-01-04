@@ -20,15 +20,42 @@ function App() {
 
           </div>
 
-          <h3>Entre em contato!</h3>
+          
           <div className='form'>
-            <div className='items-form'>
-              <input type="text" placeholder='Nome Completo'/>
-              <input type="text" placeholder='Mensagem'/>
-              <input type="submit" />
-            </div>
+            <h3>Entre em contato!</h3>
+            <form>
+              <div className='items-form'>
+                <input type="text" placeholder='Nome Completo'/>
+                <input type="text" placeholder='Mensagem'/>
+                <input type="submit" />
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div className='content'>
+        <div className='center'>
+          <div className='text'>
+            <h3>Título</h3>
+            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
+          </div>
+          <div className='text'>
+            <h3>Título</h3>
+            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
+          </div>
+          <div className='text'>
+            <h3>Título</h3>
+            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
+          </div>
+          <div className='text'>
+            <h3>Título</h3>
+            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
           </div>
         </div>
+
       </div>
     </div>
   );
