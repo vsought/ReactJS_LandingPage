@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import Contact from './components/contact/contact';
+import Content from './components/content/content';
 
 function App() {
   return (
@@ -20,43 +21,13 @@ function App() {
 
           </div>
 
-          
-          <div className='form'>
-            <h3>Entre em contato!</h3>
-            <form>
-              <div className='items-form'>
-                <input type="text" placeholder='Nome Completo'/>
-                <input type="text" placeholder='Mensagem'/>
-                <input type="submit" />
-              </div>
-            </form>
-          </div>
+          <Contact />
+      
 
 
         </div>
       </div>
-
-      <div className='content'>
-        <div className='center'>
-          <div className='text'>
-            <h3>Título</h3>
-            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
-          </div>
-          <div className='text'>
-            <h3>Título</h3>
-            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
-          </div>
-          <div className='text'>
-            <h3>Título</h3>
-            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
-          </div>
-          <div className='text'>
-            <h3>Título</h3>
-            <p>asndbuadabuxaixjashxuasgxyutagsxiuahsx</p>
-          </div>
-        </div>
-
-      </div>
+      <Content />
     </div>
   );
 }
