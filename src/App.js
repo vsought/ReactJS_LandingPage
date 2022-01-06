@@ -1,33 +1,18 @@
 import './App.css';
 import Contact from './components/contact/contact';
 import Content from './components/content/content';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
       <div className="main">
 
-        {/* técnica para design responsivo, sempre limita a largura */}
-        <div className="center">
-          <div className="header">
-
-            <div className="logo">
-                <h2>Vinícius Augusto</h2>
-            </div>
-
-            <div className="item-menu">
-              <a href='#'>Início</a>
-            </div>
-
-          </div>
-
-          <Contact />
-      
-
-
-        </div>
+        <Header />
+        <Content />
+        <Contact />
       </div>
-      <Content />
+      
     </div>
   );
 }

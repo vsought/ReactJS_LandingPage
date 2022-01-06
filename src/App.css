@@ -14,9 +14,10 @@
 
 .main{
   padding: 40px 0;
+  height: 100%;
   width: 100%;
-  background-color: aliceblue;
-  min-height: 400px;
+  background-color: whitesmoke;
+  /* min-height: 400px; */
 }
 
 .header{
@@ -24,15 +25,30 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* background-color: bisque; */
+  /* background-color: green; */
+  padding: 15px 5px;
 }
 
-.header a{
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-items: end;
+  /* justify-content: space-between; */
+  /* background-color: blue; */
+  padding: 8px 0;
+}
+
+.menu a{
   color: black;
   text-decoration: none; /*tira o sublinha do link*/
   border: 1px solid black;
   padding: 3px 8px;
   border-radius: 5px;
+}
+
+.item-menu{
+  margin: 3px 30px;
+  /* background-color: red; */
 }
 
 .form{
